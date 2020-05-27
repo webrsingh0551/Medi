@@ -1,28 +1,71 @@
 
-  <h3 style ="text-align:center">LogIn page</h3> 
-<hr>
-  <form  style ="text-align:center">
+  <!DOCTYPE html>
+<html>
+<head>
+  <title>log-in</title>
+  <style type="text/css">
+
+     input[type=text], input[type=password] {
+      width: 100%;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      display: inline-block;
+      border: none;
+      background: #f1f1f1;
+    }
+     
+    .h3{
+        text-align: center;
+      }
+
+    .container{
+      text-align: left; 
+    }
+    #first{
+      width: 150px;
+      height: 60px; 
+      background-color:gray;
+      border-radius: 20%;
+      text-align: center;
+      font-size: 15pt;
+      margin-top: 10px; 
+      margin-left: 0px;
+
+    }
+    
+  </style>
+</head>
+<body>
+  
+  <h1 >Log-In</h1> 
+
+  <form style="border:1px solid #ccc"  >
     
       <div class="container">
+        <br>
       <label for="uname"><b>Email/Username</b></label>
       <input type="text" placeholder="Enter Username" name="uname" required>
-      </br>
-         </br>
+      
+        
       <label for="psw"><b>Password</b></label>
       <input type="password" placeholder="Enter Password" name="psw" required>
-      </br>
-         </br>
-      <button type="submit">Login</button>
+      </div>
+        
+      <button type="submit" id="first" href="first_page.html">Login</button>
       <label>
-      </br>
-        </br>
-        <input type="checkbox" checked="checked" name="remember"> Remember me
+        <br>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
       </label>
-    </div>
+     
 
     <div class="container" style="background-color:#f1f1f1">
       </br>
-      <span >Forgot <a href="#">password?</a></span>
+      <span >Forgot <a href="Forgot.html">password</a></span>
+      <a href="Signup.html">Create an account</a>
     </div>
   </form>
 </div> 
+
+</body>
+</html>
+  
