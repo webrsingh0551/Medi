@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Sign-up</title>
-	<style type="text/css">
-		* {box-sizing: border-box}
+  <title>Sign-up</title>
+  <style type="text/css">
+
+* {box-sizing: border-box}
 
 /* Full-width input fields */
   input[type=text], input[type=password] {
@@ -27,13 +28,13 @@ hr {
 /* Set a style for all buttons */
 button {
             width: 150px;
-			height: 60px; 
-			background-color: gray;
-			border-radius: 20%;
-			text-align: center;
-			font-size: 15pt;
-			margin-top: 10px;
-			margin-left: 20px;
+      height: 60px; 
+      background-color: gray;
+      border-radius: 20%;
+      text-align: center;
+      font-size: 15pt;
+      margin-top: 10px;
+      margin-left: 20px;
 }
 
 button:hover {
@@ -68,19 +69,33 @@ button:hover {
     width: 50%;
   }
   form{
-  	width: 50%;
-  	align-self: center;
+    width: 50%;
+    align-self: center;
+  }
+  .img{
+      /*background-image :url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+      /*filter: blur(8px);
+     -webkit-filter: blur(8px);
+
+  /* Full height */
+       height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;*/
   }
 
 
-	</style>
+  </style>
 </head>
-<body  background="https://cdn.pixabay.com/photo/2014/04/14/20/11/japanese-cherry-trees-324175_1280.jpg">
-	  <h1>Sign Up</h1>
-	 <form  style="border:1px solid #ccc">
-	  <div class="container">
+<body background="https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260";>
+  
+  <h1 align="center">Sign Up</h1>
+   <form  style="border:1px solid #ccc">
+    <div class="container">
    
-    <p>Please fill in this form to create an account.</p>
+    <p>Please fill in this form to create an account.<a href="login.html">/LOG-IN</a></p>
     <hr>
 
     <label for="email"><b>Email</b></label>
@@ -95,8 +110,8 @@ button:hover {
     <label>
       <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
     </label>
-
-    <!--<p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p> -->
+     
+    
 
     <div class="clearfix">
       <button type="button" class="cancelbtn">Cancel</button>
